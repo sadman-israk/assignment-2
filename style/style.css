@@ -2,11 +2,13 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body{
     background-color: black;
     width: 95%;
     margin: auto;
+    color: white;
 }
 
 /* nav section */
@@ -56,6 +58,7 @@ body{
     padding: 15px;
     border-radius:80px;
     color: white;
+    gap: 10px;
 }
  .bannerbtn .two {
     
@@ -65,7 +68,104 @@ body{
     color: white;
     border: 2px solid white;
     
-   
+ }
+ .tag-one{
+  background-color: #717171;
+  color: white;  
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 26px 10px ;
+  position: absolute;
+
+  top: 20%;
+  right:25%;
+  justify-content: center;
+ }
+ .tag-one>h1{
+    
+    font-size: 28px;
+ }
+ .tag-one>p{
+    
+    font-size: 20px;
+ }
+ .tag-two{
+    background-color: #1E2527;
+    color: white;
+    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 25px 30px ;
+    position: absolute;
+    
+    bottom: 42%;
+right: 44%;
    
  }
- 
+ .tag-two>h1{
+    
+    font-size: 28px;
+ }
+ .tag-two>p{
+    
+    font-size: 20px;
+ }
+ /* habit section */
+
+ .sec-one{
+    text-align: center;
+    margin: 100px auto;
+    color: white;
+ }
+ .sec-one>h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+ }
+.sec-one>p{
+    font-size: 20px;
+    color: #717171;
+    padding-bottom: 20px;
+
+}
+.habit-sec{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.sad{
+
+height:350px ;
+width: 350px ;
+
+
+}
+.sad h4,p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sad p{
+    color: #717171;   
+}
+.sad>img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+    height:250px ;
+    width: 250px ;
+    margin-left: 3.5rem;
+}
+
+
+
+.sad{
+    height:350px ;
+    width: 350px ;
+}
