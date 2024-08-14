@@ -1,0 +1,71 @@
+/* backgorund color */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+/* nav section */
+.navsection{
+    display: flex;
+    justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 30px;
+}
+.logobtn ul {
+    display: flex;
+}
+.logobtn ul li {
+    list-style: none;
+    margin-right: 25px;
+    font-size: 25px;
+    padding: 15px;
+}
+.logo h4{
+    font-size: 40px;
+    color: #E6533C;
+}
+.homecolor{
+    background-color: #E6533C;
+    padding: 15px;
+    border-radius:80px;
+}
+/* banner section */
+.bannercontent{
+    color: white;
+}
+.bannerone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannercontent h1{
+    font-size: 88px;
+}
+.bannercontent p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bannerbtn .one {
+    background-color: #E6533C;
+    padding: 15px;
+    border-radius:80px;
+    color: white;
+}
+ .bannerbtn .two {
+    
+    padding: 15px;
+    border-radius:80px;
+    background-color: #0000;
+    color: white;
+    border: 2px solid white;
+    
+   
+   
+ }
+ 
