@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* backgorund color */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 body{
     background-color: black;
@@ -39,6 +43,8 @@ body{
 }
 /* banner section */
 .bannerone{
+  
+   
     background-image: linear-gradient(to top, #000000, #060606, #0c0c0c, #111111, #151515, #151515, #151515, #151515, #111111, #0c0c0c, #060606, #000000);
 }
 .bannercontent{
@@ -56,6 +62,8 @@ body{
 .bannercontent p{
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: left;
+    color: #717171;
 }
 .bannerbtn .one {
     background-color: #E6533C;
@@ -72,6 +80,9 @@ body{
     color: white;
     border: 2px solid white;
     
+ }
+ .tag{
+   
  }
  .tag-one{
   background-color: #717171;
@@ -223,6 +234,78 @@ width: 350px ;
     color: white;
     gap: 10px;
 }
+/* blog */
+.blog-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:#222222;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #E6533C ;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-post {
+    background-color:white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: scale(1.03);
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-content {
+    padding: 20px;
+    background-color: #666;;
+
+}
+
+.blog-content h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.blog-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.blog-content a {
+    text-decoration: none;
+   color:#E6533C
+    /* font-weight:bold;
+    transition:color 0.3s ease; */
+}
+
+.blog-content a:hover {
+    color:  #E6533C;
+}
+/* blog */
 
 .bmi{
     display: flex;
@@ -350,6 +433,150 @@ input,select{
 font-family : Miama , sans-serif;
 font-style : italic */
 
-.team{
-    color: white;
+.content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
+.teampic{
+    display: grid ;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 10px 5px;
+    background-color:#222222;
+    
+}
+.pic img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.pic{
+    position: relative;
+}
+.teamcontent {
+    font: 800;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+    
+   
+}
+.teamcontent p {
+    color: #6B6B6B;
+    right: 20px;
+    
+}
+ /* footer-section */
+ .footer{
+    background-color:#222222;
+ }
+ .foot-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    
+ }
+.con-1 p {
+    text-align: left;
+    color: #6B6B6B;
+}
+.con-1 h1{
+    color: #E6533C;
+    font-weight: 500;
+}
+.con-2 ul li {
+    list-style: none;
+    color: #6B6B6B;
+    margin-top: 20px;
+    
+}
+
+.con-3 ul li {
+    list-style: none;
+    color: #6B6B6B;
+    margin-top: 20px;
+}
+
+
+
+.footer-bottom {
+    border-top: 1px solid  #6B6B6B;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 1em;
+    color: #6B6B6B;
+}
+
+
+/* media querry */
+@media screen and (max-width: 576px) {
+    .navsection{
+        flex-direction: column;
+    }
+
+    
+    .logobtn ul {
+      flex-direction: column;
+    }
+    
+    .bannerone {
+        flex-direction: column;
+    }
+   
+
+    /* habit */
+    .habit-sec{
+        flex-direction: column;
+       
+        
+    }
+    
+
+    .extra-mile-easily-section {
+        flex-direction: column;
+    }
+
+    /* blog*/
+    .blog-container{
+        flex-direction: column;
+    }
+     /* bmi-calculator-section */
+     .bmi-calculator-section .bmi-containner .bmi-content {
+        width: 100%;
+    }
+    .bmi-chart-and-calculate {
+        flex-direction: column;
+    }
+    .bmi-calculator-chart {
+        width: 100%;
+        padding: 0;
+    }
+    .bmi-calculat {
+        width: 100%;
+        padding: 0;
+    }
+    /* meet our team */
+    .teampic{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* footer sec */
+    .foot-container{
+        flex-direction: column;
+     }
+     .con-2 {
+        margin-top: 10px;
+     }
+     .con-3 {
+        margin-top: 10px;
+     }
+
+/*  */
