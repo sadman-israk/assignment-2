@@ -539,6 +539,51 @@ font-style : italic */
        
         
     }
+   
+        /* Run an Extra Mile Easily */
+        .extra-mile-easily-section{
+            flex-direction: column;
+            width: 95%;
+            padding: 10px 0px;
+            margin: auto;
+        }
+        .extra-mile-easily-section
+        .content{
+            width: 80%;
+            margin: auto;
+            /* padding: 10px; */
+            text-align: left;
+        }
+        .extra-mile-easily-section
+        .content h2{
+            font-size: 3rem;
+        }
+        .extra-mile-easily-section
+        .content span{
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+        }
+        .extra-mile-easily-section
+        .content button{
+            width: 100%;
+            font-size: 1.8rem;
+            padding: 15px;
+            border-radius: 40px;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .extra-mile-easily-section
+        .image{
+            width: 90%;
+            padding: 30px;
+            margin: auto;
+        }
+        .extra-mile-easily-section
+        .image img{
+            width: 90%;
+            margin-left: 6px;
+        }
+    /*  Run an Extra Mile Easily */
     
 
     .extra-mile-easily-section {
